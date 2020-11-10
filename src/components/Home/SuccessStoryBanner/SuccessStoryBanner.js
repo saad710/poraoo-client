@@ -53,9 +53,9 @@ const SuccessStoryBanner = () => {
             </button>
           </div>
           <div className="col-md-8">
-            <div class="row">
-              <div class="col-lg-4 col-md-12 mb-4">
-                <img src={img2} class="img-fluid mb-4" alt="" />
+            {/* <div class="row">
+              <div class="col-lg-3 col-md-12 mb-4">
+                <img src={img5} class="img-fluid mb-4" alt="" />
 
                 <img
                   src={img3}
@@ -65,7 +65,7 @@ const SuccessStoryBanner = () => {
                 />
               </div>
 
-              <div class="col-lg-4 col-md-6 mb-4">
+              <div class="col-lg-3 col-md-6 mb-4">
                 <img
                   src={img4}
                   class="img-fluid mb-4"
@@ -81,7 +81,7 @@ const SuccessStoryBanner = () => {
                 />
               </div>
 
-              <div class="col-lg-4 col-md-6 mb-4">
+              <div class="col-lg-3 col-md-6 mb-4">
                 <img
                   src={img6}
                   class="img-fluid mb-4"
@@ -95,6 +95,82 @@ const SuccessStoryBanner = () => {
                   alt=""
                   data-wow-delay="0.5s"
                 />
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4">
+                <img
+                  src={img6}
+                  class="img-fluid mb-4"
+                  alt=""
+                  data-wow-delay="0.2s"
+                />
+
+                <img
+                  src={img7}
+                  class="img-fluid mb-4"
+                  alt=""
+                  data-wow-delay="0.5s"
+                />
+              </div>
+            </div> */}
+
+            {/* <div style={{ marginTop: 150, marginLeft: 30 }} className="row">
+              <div
+                style={{ paddingRight: "50" }}
+                className="col-md-2 d-flex align-items-center"
+              >
+                <img src={img5} alt="" />
+              </div>
+              <div className="col-md-10">
+                <div className="row mb-3">
+                  <div style={{ paddingLeft: 10 }} className="col-md-8">
+                    <img src={img2} alt="" />
+                  </div>
+                  <div
+                    style={{ paddingLeft: 3 }}
+                    className="col-md-4 d-flex align-items-end"
+                  >
+                    <img src={img3} alt="" />
+
+                    <img src={img7} alt="" />
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-md-3">
+                    <img src={img6} alt="" />
+                  </div>
+                  <div className="col-md-9">
+                    <img src={img8} alt="" />
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-2">
+                <img src={img3} alt="" />
+                <img src={img4} alt="" />
+              </div>
+            </div> */}
+
+            <div style={{ marginTop: 100, marginLeft: 30 }} className="row">
+              <div className="col-md-3 d-flex align-items-center">
+                <img src={img5} alt="" />
+              </div>
+              <div className="col-md-9">
+                <div className="row mb-3">
+                  <div className="col-md-7 d-flex align-items-end ">
+                    <img src={img2} alt="" />
+                  </div>
+                  <div className="col-md-5 d-flex flex-wrap">
+                    <img style={{ marginBottom: 10 }} src={img3} alt="" />
+                    <img src={img7} alt="" />
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="col-md-3">
+                    <img src={img6} alt="" />
+                  </div>
+                  <div className="col-md-9">
+                    <img src={img8} alt="" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>

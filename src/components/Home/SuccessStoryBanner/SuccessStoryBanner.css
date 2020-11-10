@@ -6,3 +6,11 @@
   height: 827;
   background-image: linear-gradient(to right, #ff8a00 0%, #ffc000 100%);
 }
+
+img {
+  padding-right: 30px !important;
+}
+
+.image-style {
+  padding-right: 30px !important;
+}
