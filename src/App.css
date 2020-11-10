@@ -1,3 +1,26 @@
 * {
   margin: 0px;
 }
+
+.brand-text {
+  color: #ff8a00;
+  font-weight: bold;
+}
+
+.brand-btn {
+  max-width: 140.24px;
+  max-height: 36.81px;
+  border-radius: 100px !important;
+  background-image: linear-gradient(to right, #ff8a00 0%, #ffc000 100%);
+}
+/* .brand-btn:hover {
+  background-position: right center;
+} */
+
+.brand-link {
+  text-decoration: none;
+}
+.brand-link:hover {
+  text-decoration: none;
+  color: #996324;
+}
