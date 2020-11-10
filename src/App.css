@@ -8,8 +8,9 @@
 }
 
 .brand-btn {
-  max-width: 140.24px;
-  max-height: 36.81px;
+  /* max-width: 140.24px;
+  max-height: 36.81px; */
+  border: none !important;
   border-radius: 100px !important;
   background-image: linear-gradient(to right, #ff8a00 0%, #ffc000 100%);
 }
@@ -23,4 +24,11 @@
 .brand-link:hover {
   text-decoration: none;
   color: #996324;
+}
+
+.contrast-btn {
+  width: 160px !important;
+  height: 58px !important;
+  background-color: white !important;
+  border-radius: 100px !important;
 }

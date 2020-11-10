@@ -4,6 +4,8 @@ import InfoBanner from "../InfoBanner/InfoBanner";
 import LongTimeAssignment from "../LongTimeAssignment/LongTimeAssignment";
 import LowValueAssignment from "../LowValueAssignment/LowValueAssignment";
 import ShortTimeAssignment from "../ShortTimeAssignment/ShortTimeAssignment";
+import SuccessStoryBanner from "../SuccessStoryBanner/SuccessStoryBanner";
+import WorkFlowBanner from "../WorkFlowBanner/WorkFlowBanner";
 
 const Home = () => {
   return (
@@ -20,6 +22,19 @@ const Home = () => {
       </div>
       <div style={{ backgroundColor: "#F2F2F2" }}>
         <LowValueAssignment></LowValueAssignment>
+      </div>
+      <WorkFlowBanner></WorkFlowBanner>
+      <div
+        style={{
+          zIndex: 100,
+          // marginTop: -320,
+          width: "100%",
+          height: 827,
+          backgroundImage:
+            "linear-gradient(to right, #ff8a00 0%, #ffc000 100%)",
+        }}
+      >
+        <SuccessStoryBanner></SuccessStoryBanner>
       </div>
     </>
   );

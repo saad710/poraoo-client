@@ -1,0 +1,19 @@
+.work-btn {
+  width: 199px;
+  height: 56px;
+  border: none !important;
+  border-radius: 100px !important;
+  background-image: linear-gradient(to right, #ff8a00 0%, #ffc000 100%);
+}
+
+.work-text-area {
+  padding-right: 300px !important;
+}
+
+.work-area {
+  /* position: absolute; */
+  z-index: -1 !important;
+  margin-top: 60px;
+  padding-top: 100px;
+  margin-bottom: -310px;
+}
