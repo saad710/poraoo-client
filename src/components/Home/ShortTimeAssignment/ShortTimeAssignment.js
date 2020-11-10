@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { fakeData } from "../../../fakeData/fakeData";
 import AssignmentCard from "../AssignmentCard/AssignmentCard";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 import "./ShortTimeAssignment.css";
 
 const ShortTimeAssignment = () => {
@@ -16,7 +18,7 @@ const ShortTimeAssignment = () => {
         </div>
         <div className="ml-auto brand-text">
           <Link className="brand-link brand-text" to="/">
-            See More
+            See More <FontAwesomeIcon icon={faAngleRight} />
           </Link>{" "}
         </div>
       </div>

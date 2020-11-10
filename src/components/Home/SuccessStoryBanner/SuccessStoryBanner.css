@@ -3,13 +3,13 @@
   z-index: 100;
   /* margin-top: -350; */
   width: 100%;
-  height: 827;
+  /* height: 827; */
   background-image: linear-gradient(to right, #ff8a00 0%, #ffc000 100%);
 }
 
-img {
+/* img {
   padding-right: 30px !important;
-}
+} */
 
 .image-style {
   padding-right: 30px !important;

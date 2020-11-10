@@ -167,8 +167,11 @@ const SuccessStoryBanner = () => {
                   <div className="col-md-3">
                     <img src={img6} alt="" />
                   </div>
-                  <div className="col-md-9">
+                  <div className="col-md-7">
                     <img src={img8} alt="" />
+                  </div>
+                  <div style={{ marginTop: -130 }} className="col-md-2">
+                    <img src={img4} alt="" />
                   </div>
                 </div>
               </div>

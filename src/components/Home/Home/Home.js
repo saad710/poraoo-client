@@ -1,4 +1,6 @@
 import React from "react";
+import Copyright from "../Copyright/Copyright";
+import Footer from "../Footer/Footer";
 import HighValueAssignment from "../HighValueAssignment/HighValueAssignment";
 import InfoBanner from "../InfoBanner/InfoBanner";
 import LongTimeAssignment from "../LongTimeAssignment/LongTimeAssignment";
@@ -6,6 +8,7 @@ import LowValueAssignment from "../LowValueAssignment/LowValueAssignment";
 import ShortTimeAssignment from "../ShortTimeAssignment/ShortTimeAssignment";
 import SuccessStoryBanner from "../SuccessStoryBanner/SuccessStoryBanner";
 import WorkFlowBanner from "../WorkFlowBanner/WorkFlowBanner";
+import "./Home.css";
 
 const Home = () => {
   return (
@@ -35,6 +38,12 @@ const Home = () => {
         }}
       >
         <SuccessStoryBanner></SuccessStoryBanner>
+      </div>
+      <div style={{ backgroundColor: "#212121" }}>
+        <Footer></Footer>
+      </div>
+      <div style={{ backgroundColor: "#000000" }}>
+        <Copyright></Copyright>
       </div>
     </>
   );

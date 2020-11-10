@@ -1,0 +1,16 @@
+.footer-area {
+  color: white;
+  padding: 50px 0px;
+}
+
+.poraoo-logo {
+  width: 116px;
+  height: 54px;
+}
+
+ul {
+  list-style-type: none;
+}
+.footer-area li {
+  padding-bottom: 10px;
+}
