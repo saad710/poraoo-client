@@ -1,11 +1,14 @@
 import React from "react";
+import NavBar from "../../Shared/NavBar/NavBar";
 import Copyright from "../Copyright/Copyright";
+import FeatureBanner from "../FeatureBanner/FeatureBanner";
 import Footer from "../Footer/Footer";
 import HighValueAssignment from "../HighValueAssignment/HighValueAssignment";
 import InfoBanner from "../InfoBanner/InfoBanner";
 import LongTimeAssignment from "../LongTimeAssignment/LongTimeAssignment";
 import LowValueAssignment from "../LowValueAssignment/LowValueAssignment";
 import ShortTimeAssignment from "../ShortTimeAssignment/ShortTimeAssignment";
+import Slider from "../Slider/Slider";
 import SuccessStoryBanner from "../SuccessStoryBanner/SuccessStoryBanner";
 import WorkFlowBanner from "../WorkFlowBanner/WorkFlowBanner";
 import "./Home.css";
@@ -13,6 +16,9 @@ import "./Home.css";
 const Home = () => {
   return (
     <>
+      <NavBar></NavBar>
+      <Slider></Slider>
+      <FeatureBanner></FeatureBanner>
       <div style={{ backgroundColor: "#F2F2F2" }}>
         <LongTimeAssignment></LongTimeAssignment>
       </div>
