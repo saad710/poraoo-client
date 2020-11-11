@@ -26,6 +26,9 @@ function App() {
         <Route path="/teacherLogin">
           <TeacherLogin></TeacherLogin>
         </Route>
+        <Route path="/login">
+          <TeacherLogin></TeacherLogin>
+        </Route>
         <Route path="/verifyOtp">
           <VerifyOtp></VerifyOtp>
         </Route>

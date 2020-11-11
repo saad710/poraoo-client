@@ -130,13 +130,13 @@ const TeacherLogin = () => {
                 <p>
                   Need an account?{" "}
                   <span>
-                    <a
+                    <Link
                       className="sign-btn-back"
                       style={{ textDecoration: "none" }}
-                      href="/teacherSignUp"
+                      to="/teacherSignUp"
                     >
                       Sign Up
-                    </a>
+                    </Link>
                   </span>
                 </p>
               </div>

@@ -68,7 +68,7 @@ const NavBar = () => {
               </Link>
             </div>
             <div className="header-end">
-              <Link className="btn-header" to="/loginHome">
+              <Link className="btn-header" to="/login">
                 Login
               </Link>
             </div>
