@@ -6,7 +6,6 @@ import Footer from '../../../Shared/Footer/Footer';
 import Copyright from '../../../Home/Copyright/Copyright';
 
 const BidDetails = () => {
-   
     return (
         <div>
             <TeacherNavbar/>

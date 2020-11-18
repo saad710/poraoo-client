@@ -7,7 +7,6 @@ import AssignmentCard from '../../../Home/AssignmentCard/AssignmentCard';
 import "./CurrentBidAssignment.css";
 
 const CurrentBidAssignment = () => {
-   
     const [assignments, setAssignments] = useState(fakeData);
     console.log(fakeData);
   return (
