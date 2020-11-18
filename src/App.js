@@ -20,8 +20,7 @@ export const UserContext = createContext();
 function App() {
   return (
     <Router>
-      <Switch>
-       
+      <Switch> 
         <Route path="/home">
           <Home></Home>
         </Route>
