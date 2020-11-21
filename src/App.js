@@ -1,7 +1,9 @@
-import { createContext, useState } from "react";
+import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 import SignUpHome from "./components/Authentication/SignUpHome/SignUpHome";
+import StudentLogin from "./components/Authentication/Student/StudentLogin/StudentLogin";
+import StudentSignup from "./components/Authentication/Student/StudentSignup/StudentSignUp";
 import TeacherLogin from "./components/Authentication/Teacher/TeacherLogin/TeacherLogin";
 import TeacherSignUp from "./components/Authentication/Teacher/TeacherSignUp/TeacherSignUp";
 import VerifyOtp from "./components/Authentication/VerifyOtp/VerifyOtp";
@@ -9,13 +11,10 @@ import BidAssignment from "./components/Dashboard/TeacherDashboard/BidAssignment
 import BidDetails from "./components/Dashboard/TeacherDashboard/BidDetails/BidDetails";
 import CurrentBid from "./components/Dashboard/TeacherDashboard/CurrentBid/CurrentBid";
 import FindAssignmentTeacher from "./components/Dashboard/TeacherDashboard/FindAssignmentTeacher/FindAssignmentTeacher";
-import ReferenceModal from "./components/Dashboard/TeacherDashboard/Modal/ReferenceModal";
 import TeacherDashboard from "./components/Dashboard/TeacherDashboard/TeacherDashboard/TeacherDashboard";
 import Home from "./components/Home/Home/Home";
 import NotFound from "./components/NotFound/NotFound";
-import { fakeData } from "./fakeData/fakeData";
 
-export const UserContext = createContext();
 
 function App() {
   return (
@@ -51,8 +50,11 @@ function App() {
         <Route path="/currentBid">
           <CurrentBid></CurrentBid>
         </Route>
-        <Route path="/referenceModal">
-          <ReferenceModal></ReferenceModal>
+        <Route path="/studentSignup">
+          <StudentSignup></StudentSignup>
+        </Route>
+        <Route path="/studentLogin">
+          <StudentLogin></StudentLogin>
         </Route>
         <Route exact path="/">
           <Home></Home>
